@@ -26,7 +26,7 @@ export default function MenuHeader({ text, closeHandler, type, backHandler }) {
         </IconButton>
       )}
       <div className={classes.title}>{text}</div>
-      <IconButton onClick={closeHandler} className={classes.close}>
+      <IconButton data-testid="MenuHeader-close-button" onClick={closeHandler} className={classes.close}>
         <CloseIcon />
       </IconButton>
     </div>

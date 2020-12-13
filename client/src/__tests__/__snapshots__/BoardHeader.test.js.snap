@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should check snapshot for BoardHeader 1`] = `
+<div
+  className="makeStyles-container-3"
+>
+  <div
+    className="makeStyles-title-4"
+    onClick={[Function]}
+  >
+    table1
+  </div>
+</div>
+`;
