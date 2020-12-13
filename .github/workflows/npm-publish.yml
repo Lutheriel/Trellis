@@ -8,7 +8,7 @@ on:
     branches:
       - master
 jobs:
-  test:
+  tests-UI:
     runs-on: ubuntu-latest
     defaults:
       run:
